@@ -1,0 +1,117 @@
+!white = #fff
+!grey = #ddd
+!lightgrey = #eee
+!black = #000
+!orange = #f50
+
+
+=rounded( !radius = 0.3em )
+  :-moz-border-radius= !radius
+  :-webkit-border-radius= !radius
+
+
+html, body
+  :margin 0px
+  :padding 0px
+  :font-family monospace
+  :color= !black
+  :background-color= !lightgrey
+
+  & > *
+    :background-color= !white
+
+a
+  :color= !orange
+  :text-decoration none
+  :font-size 1.1em
+  :border-bottom 1px "solid" "transparent"
+
+  &:hover
+    :border-bottom= 1px "dotted" !orange
+
+hr
+  :width 120%
+  :position relative
+  :left -10%
+  :color= !grey
+  :background-color= !grey
+  :border none
+
+blockquote
+  :border= 2px "solid" !grey
+  :font-style italic
+  :margin 0
+  +rounded
+
+  &:before
+    :content '”'
+    :font-size 3em
+    :color= !grey
+
+  p
+    :margin 0 3em 0 3em
+    :position relative
+    :top -2em
+
+pre
+  :background-color= !lightgrey
+  :border= 1px "solid" !grey
+  :padding 1em
+  +rounded
+
+  &.email
+    :white-space normal
+
+
+#header
+  :float left
+  :width 1em
+  :padding 1em
+
+  #home
+    :font-size 2em
+    :display inline-block
+    :border none
+    :padding 5px
+    +rounded
+
+    &:hover
+      :background-color= !orange
+      :color= !white
+
+#main
+  :padding 80px 80px 20px 80px
+  :margin auto
+  :width 500px
+
+  ul#posts
+    :list-style-type none
+    :background-color= !lightgrey
+    :border= 0.5em "solid" !grey
+    :padding 1em
+    +rounded(1em)
+    :-moz-border-radius-topleft 5em
+
+    li
+      :padding 1em
+
+      .date
+        :padding-right 1em
+
+  div#comments
+    :text-align center
+    :padding 2em
+
+    a
+      :font-size 1.3em
+      :font-family serif
+
+
+#footer
+  :border-top= 3px "solid" !grey
+  :background-color= !lightgrey
+  :font-family serif
+  :font-size 0.8em
+  :text-align center
+  :padding 10px
+

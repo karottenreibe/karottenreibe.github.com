@@ -1,0 +1,12 @@
+:plain
+  ---
+  layout: layout
+  ---
+.date {{ page.date | date_to_string }}
+.title
+  %a{ :href => "{{ page.url }}", :title => 'k on "{{ page.title }}"'} {{ page.title }}
+%hr
+%div.text {{ content }}
+%div#comments
+  %a{ :href => "/comments/", :title => 'Why is there no comment function?' } Comments?
+

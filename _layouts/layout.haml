@@ -1,0 +1,32 @@
+!!! XML
+!!! Strict
+%html{html_attrs}
+
+  %head
+    %title k on "{{ page.title }}"
+    %link{ :rel => 'stylesheet', :type => 'text/css', :href => "/static/stylesheet.css" }
+    %link{ :rel => 'stylesheet', :type => 'text/css', :href => "/static/syntax.css" }
+
+  %body
+
+    #header
+      %a#home{ :href => '/', :title => 'Go back to the topmost page' } k a r o t t e n r e i b e
+
+    #main
+      {{ content }}
+
+    %div{ :style => 'clear:both;' }
+    #footer
+      %div
+        (c) 2009 by karottenreibe
+      %div
+        Licensed under the
+        %a{ :title => 'The license of the stuff on this webpage', :href => '/static/LICENSE.txt' } MIT License
+        unless otherwise indicated.
+      %div
+        Thank you
+        %a{ :href => 'http://github.com/mojombo/jekyll', :title => "Jekyll -- a static website generator" } Jekyll
+        and
+        %a{ :href => 'http://www.github.com/', :title => 'GitHub -- social coding' } GitHub
+        !
+
