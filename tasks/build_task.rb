@@ -1,4 +1,4 @@
-require 'rake/clean'
+require 'rake'
 
 class BuildTask
 
@@ -14,8 +14,6 @@ class BuildTask
                 sh "#{interpreter} #{source_file} #{source_file.ext(target)}"
             end
         end
-
-        CLEAN.include(source_files.map { |file| file.ext(target) })
     end
 
 end
