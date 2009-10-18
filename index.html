@@ -1,0 +1,12 @@
+---
+layout: layout
+title: This Blog
+---
+<ul id='posts'>
+  {% for post in site.posts %}
+  <li>
+    <span class='date'>{{ post.date | date_to_string }}:</span>
+    <a class='title' href='{{ post.url }}' title='k on: "{{ post.title }}"'>{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

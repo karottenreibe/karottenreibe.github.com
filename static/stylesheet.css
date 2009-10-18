@@ -1,0 +1,94 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  color: black;
+  background-color: #eeeeee; }
+  html > *, body > * {
+    background-color: white; }
+
+a {
+  color: #ff5500;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-bottom: 1px "solid" "transparent"; }
+  a:hover {
+    border-bottom: 1px dotted #ff5500; }
+
+hr {
+  width: 120%;
+  position: relative;
+  left: -10%;
+  color: #dddddd;
+  background-color: #dddddd;
+  border: none; }
+
+blockquote {
+  border: 2px solid #dddddd;
+  font-style: italic;
+  margin: 0;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em; }
+  blockquote:before {
+    content: '”';
+    font-size: 3em;
+    color: #dddddd; }
+  blockquote p {
+    margin: 0 3em 0 3em;
+    position: relative;
+    top: -2em; }
+
+pre {
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 1em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em; }
+  pre.email {
+    white-space: normal; }
+
+#header {
+  float: left;
+  width: 1em;
+  padding: 1em; }
+  #header #home {
+    font-size: 2em;
+    display: inline-block;
+    border: none;
+    padding: 5px;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em; }
+    #header #home:hover {
+      background-color: #ff5500;
+      color: white; }
+
+#main {
+  padding: 80px 80px 20px 80px;
+  margin: auto;
+  width: 500px; }
+  #main ul#posts {
+    list-style-type: none;
+    background-color: #eeeeee;
+    border: 0.5em solid #dddddd;
+    padding: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius-topleft: 5em; }
+    #main ul#posts li {
+      padding: 1em; }
+      #main ul#posts li .date {
+        padding-right: 1em; }
+  #main div#comments {
+    text-align: center;
+    padding: 2em; }
+    #main div#comments a {
+      font-size: 1.3em;
+      font-family: serif; }
+
+#footer {
+  border-top: 3px solid #dddddd;
+  background-color: #eeeeee;
+  font-family: serif;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 10px; }
