@@ -65,9 +65,12 @@ get them all! Meanwhile, I'll finish the next part of
 my little narration...
 
 
+[Continue with Part 2!][part2]
+
 
 [joker]:            http://karottenreibe.github.com/joker   "Joker -- A Ruby library for Wildcard matching"
 [rake-compiler]:    http://github.com/luislavena/rake-compiler  "rake-comiler -- The compiler genie that will grant all your wishes"
 [rake-tester]:      http://www.github.com/karottenreibe/rake-tester  "rake-tester -- Testing Ruby C Extensions with C frameworks"
 [valgrind]:         http://valgrind.org/    "Valgrind -- Trace down your memory leaks!"
+[part2]:            ../../19/ruby-c-extension-2    "Part 2 of this series"
 
