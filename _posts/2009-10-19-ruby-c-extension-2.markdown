@@ -1,5 +1,9 @@
 ---
 layout: post
+summary:
+    Continuing yesterday's post, I explore the
+    subtleties of crossing the border from Ruby
+    gem land to Ruby C extension land.
 title: Ruby C Extensions -- Part 2
 ---
 

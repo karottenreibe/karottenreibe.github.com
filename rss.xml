@@ -1,0 +1,18 @@
+---
+---
+<?xml version="1.0"?>
+<rss version="0.91">
+<channel>
+  <title>karottenreibe.github.com</title>
+  <link>http://karottenreibe.github.com</link>
+  <description>k on "Random Stuff"</description>
+  <language>en-us</language>
+  {% for post in site.posts %}
+  <item>
+    <title>{{ post.title }}</title>
+    <link>{{ post.url }}</link>
+    <description>{{ post.summary }}</description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>
