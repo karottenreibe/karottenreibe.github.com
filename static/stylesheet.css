@@ -12,6 +12,10 @@ a {
   text-decoration: none;
   font-size: 1.1em;
   border-bottom: 1px "solid" "transparent"; }
+  a:focus {
+    border: 1px dotted #ff5500; }
+  a:visited {
+    border-bottom: 1px dashed #ff5500; }
   a:hover {
     border-bottom: 1px dotted #ff5500; }
 
@@ -21,6 +25,13 @@ hr {
   left: -10%;
   color: #dddddd;
   background-color: #dddddd;
+  border: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  border-top: 2px solid #dddddd;
+  padding-top: 5px; }
+
+h1:first-child {
   border: none; }
 
 blockquote {

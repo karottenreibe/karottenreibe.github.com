@@ -26,6 +26,12 @@ a
   :font-size 1.1em
   :border-bottom 1px "solid" "transparent"
 
+  &:focus
+    :border= 1px "dotted" !orange
+
+  &:visited
+    :border-bottom= 1px "dashed" !orange
+
   &:hover
     :border-bottom= 1px "dotted" !orange
 
@@ -35,6 +41,13 @@ hr
   :left -10%
   :color= !grey
   :background-color= !grey
+  :border none
+
+h1, h2, h3, h4, h5, h6
+  :border-top= 3px "solid" !grey
+  :padding-top 5px
+
+h1:first-child
   :border none
 
 blockquote
