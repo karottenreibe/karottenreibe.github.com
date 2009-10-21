@@ -64,7 +64,11 @@ for a little time to finish the next part of this enchanting
 narration...
 
 
+[Continue with Part 3!][part3]
+
+
 [part1]:        ../../18/ruby-c-extension  "Part 1 of this series"
+[part3]:        ../../21/ruby-c-extension-3  "Part 3 of this series"
 [pickaxe]:      http://www.rubycentral.com/pickaxe/ext_ruby.html    "The Pragmatic Programmer's Guide on C extensions"
 [rubyinside]:   http://www.rubyinside.com/how-to-create-a-ruby-extension-in-c-in-under-5-minutes-100.html   "Ruby Inside blog post on the subject"
 [eqqon]:        http://www.eqqon.com/index.php/Ruby_C_Extension     "eqqon's Ruby C API documentation"
