@@ -9,6 +9,10 @@
   :-moz-border-radius= !radius
   :-webkit-border-radius= !radius
 
+=greybox( !border = 1px )
+  :background-color= !lightgrey
+  :border= !border "solid" !grey
+
 
 html, body
   :margin 0px
@@ -67,13 +71,15 @@ blockquote
     :top -2em
 
 pre
-  :background-color= !lightgrey
-  :border= 1px "solid" !grey
   :padding 1em
   +rounded
+  +greybox
 
   &.email
     :white-space normal
+
+code
+  +greybox
 
 
 #header
@@ -99,9 +105,8 @@ pre
 
   ul#posts
     :list-style-type none
-    :background-color= !lightgrey
-    :border= 0.5em "solid" !grey
     :padding 1em
+    +greybox(0.5em)
     +rounded(1em)
     :-moz-border-radius-topleft 5em
 

@@ -50,13 +50,17 @@ blockquote {
     top: -2em; }
 
 pre {
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
   padding: 1em;
   -moz-border-radius: 0.3em;
-  -webkit-border-radius: 0.3em; }
+  -webkit-border-radius: 0.3em;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd; }
   pre.email {
     white-space: normal; }
+
+code {
+  background-color: #eeeeee;
+  border: 1px solid #dddddd; }
 
 #header {
   float: left;
@@ -79,9 +83,9 @@ pre {
   width: 500px; }
   #main ul#posts {
     list-style-type: none;
+    padding: 1em;
     background-color: #eeeeee;
     border: 0.5em solid #dddddd;
-    padding: 1em;
     -moz-border-radius: 1em;
     -webkit-border-radius: 1em;
     -moz-border-radius-topleft: 5em; }
