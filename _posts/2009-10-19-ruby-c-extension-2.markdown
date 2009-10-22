@@ -7,7 +7,7 @@ summary:
 title: Ruby C Extensions -- Part 2
 ---
 
-This is part 2 of my little tale of my adventures
+This is part 2 of the tale of my adventures
 in Ruby C extension land.
 
 If you haven't read part 1,

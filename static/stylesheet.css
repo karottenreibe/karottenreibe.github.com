@@ -28,7 +28,7 @@ hr {
   border: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  border-top: 2px solid #dddddd;
+  border-top: 3px solid #dddddd;
   padding-top: 5px; }
 
 h1:first-child {

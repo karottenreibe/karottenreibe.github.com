@@ -6,7 +6,7 @@ summary:
 title: Ruby C Extensions -- Part 3
 ---
 
-This is part 3 of my little  of my adventures
+This is part 3 of my little adventures
 in Ruby C extension land.
 
 If you haven't read part 1 and 2,
@@ -81,11 +81,13 @@ If you want complicated: Read the documentation.
 But most of the time, easy will totally suffice,
 so here is all you need to put in your extconf.rb:
 
-    require 'mkmf'
+{% highlight ruby %}
+require 'mkmf'
 
-    extension_name = 'cranberry'
-    dir_config(extension_name)
-    create_makefile(extension_name)
+extension_name = 'cranberry'
+dir_config(extension_name)
+create_makefile(extension_name)
+{% endhighlight %}
 
 Just replace the cranberry with the juicy name
 you gave the ext directory above.
@@ -96,7 +98,11 @@ metaphor of the buddhist monk, I'll prepare
 the next part of this fantastic story.
 
 
+[Continue with Part 4!][part4]
+
+
 [part1]:        ../../18/ruby-c-extension  "Part 1 of this series"
+[part4]:        ../../22/ruby-c-extension-4     "Part 4 of this series"
 [makefile]:     http://en.wikipedia.org/wiki/Makefile#Makefile_structure    "An explanation of what make is"
 [extconf]:      http://www.linuxtopia.org/online_books/programming_books/ruby_tutorial/Extending_Ruby_Creating_a_Makefile_with_extconf.rb.html  "Small extconf tutorial"
 [mkmf]:         http://www.ruby-doc.org/stdlib/libdoc/mkmf/rdoc/index.html  "RDoc for extconf"
