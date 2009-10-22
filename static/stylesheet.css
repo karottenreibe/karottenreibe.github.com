@@ -62,6 +62,10 @@ code {
   background-color: #eeeeee;
   border: 1px solid #dddddd; }
 
+pre code {
+  background-color: #eeeeee;
+  border: 0px solid #dddddd; }
+
 #header {
   float: left;
   width: 1em;

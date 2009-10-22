@@ -68,6 +68,15 @@ get them all! Meanwhile, I'll finish the next part of
 my little narration...
 
 
+**UPDATE:**
+Here's how to get the gems:
+
+    gem install rake-compiler rake-tester
+
+for valgrind and gcc, please use your OS package
+manager or get some binaries on the net.
+
+
 [Continue with Part 2!][part2]
 
 
