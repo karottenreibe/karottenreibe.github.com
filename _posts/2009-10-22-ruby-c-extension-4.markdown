@@ -54,8 +54,9 @@ There are numerous tools out there, but I
 like [Jeweler][], because it integrates
 with [Git][].
 
-(**NOTE:** I'll write an extra article on
-integrating Jeweler and rake-compiler.)
+(**NOTE:** I'll write an
+[extra article on integrating Jeweler and rake-compiler][jew-rakec]
+.)
 
 Once you have done that, there are several
 new tasks available for you:
@@ -93,4 +94,5 @@ on what to tell you next.
 [jeweler]:      http://github.com/technicalpickles/jeweler      "Jeweler, which manages your gemspec"
 [git]:          http://whygitisbetterthanx.com/     "The only true version control system :-)"
 [luis]:         http://github.com/luislavena    "The great fellow who created rake-compiler"
+[jew-rakec]:    ../../25/jeweler-interlude      "How to mix Jeweler and rake-compiler"
 

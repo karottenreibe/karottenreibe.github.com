@@ -6,8 +6,6 @@ summary:
 title: Jeweler - rake-compiler Interlude
 ---
 
-# Ruby C Extensions #
-
 Lately I have been
 [going on about how to write Ruby C Extensions][cextensions]
 and I thought at this point I should share with
