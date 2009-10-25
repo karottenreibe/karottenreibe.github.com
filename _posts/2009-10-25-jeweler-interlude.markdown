@@ -23,7 +23,7 @@ You will need to configure Jeweler for four things:
 1.  Setting up the extensions flag of the gemspec
 2.  Including the generated native files
 3.  Storage of the generated gemspec
-4.  Generating a gemspec before each build
+4.  Fixing the gemspec version
 
 Let's look at each in turn:
 
