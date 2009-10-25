@@ -73,22 +73,25 @@ $gemspec = jeweler_tasks.gemspec
 {% endhighlight %}
 
 This also means that rake-compiler tasks must be set up
-after the Jeweller tasks.
+after the Jeweler tasks.
 
 
-## Fixing Some Quirks ##
+## Fixing the GemSpec Version ##
+
+(**UPDATE:** This is a simpler solution. The one posted
+previously works as well, but this is less invasive)
 
 {% highlight ruby %}
-task :build => :gemspec
+$gemspec.version = jeweler_tasks.jeweler.version
 {% endhighlight %}
 
 This fixes an issue in the interaction of rake-compiler
 and Jeweler. Rake-compiler needs the gemspec to have a
-version, but Jeweller will only store the current version
+version, but Jeweler will only store the current version
 in the gemspec if certain tasks are called, e.g.
 ` gemspec `.
 
-Else native building will fail with
+If not applied, native building will fail with
 
     Version required (or :noversion)
 
@@ -96,7 +99,7 @@ Else native building will fail with
 # Rake-Compiler Setup #
 
 The rake-compiler itself doesn't need any special
-configuration, except for the passed in gemspec:
+configuration, except for passing in the gemspec:
 
 {% highlight ruby %}
 Rake::ExtensionTask.new('craberry', $gemspec) do
@@ -105,31 +108,31 @@ end
 {% endhighlight %}
 
 But there are some bugs when wiring
-it to Jeweller.
+it to Jeweler.
 
 
-## Glueing Gemspec to Native ##
-
-The version problem addressed before also needs to be
-fixed for the ` native ` tasks of rake-compiler:
+## Gemspec Marshalling Fix ##
 
 {% highlight ruby %}
 Rake::Task.tasks.each do |task_name|
     case task_name.to_s
     when /^native/
-        task_name.prerequisites.unshift("gemspec",
-            "fix_rake_compiler_gemspec_dump")
+        task_name.prerequisites.unshift("fix_rake_compiler_gemspec_dump")
+    end
+end
+
+task :fix_rake_compiler_gemspec_dump do
+    %w{files extra_rdoc_files test_files}.each do |accessor|
+        $gemspec.send(accessor).instance_eval {
+            @exclude_procs = Array.new
+        }
     end
 end
 {% endhighlight %}
 
-This forces Rake to always execute ` gemspec ` before
+This forces Rake to always execute
+` fix_rake_compiler_gemspec_dump ` before
 invoking any ` native ` tasks.
-
-It also prepares the fix of the next problem.
-
-
-## Gemspec Marshalling Fix ##
 
 Rake-compiler at one point needs to draw a copy of
 the gemspec. But since gemspecs don't have a ` dup `
@@ -143,27 +146,15 @@ so the gemspec cloning will fail with
 
     allocator undefined for Proc
 
-To prevent this, we also need to add the following:
-
-{% highlight ruby %}
-task :fix_rake_compiler_gemspec_dump do
-    %w{files extra_rdoc_files test_files}.each do |accessor|
-        $gemspec.send(accessor).instance_eval {
-            @exclude_procs = Array.new
-        }
-    end
-end
-{% endhighlight %}
-
-In combination with the fix from the last section,
-this solves the problem.
+The above code snippet prevents that by removing
+those Procs before the YAML dumping.
 
 
 # The Rest #
 
 For the rest, you can
 [follow the rake-compiler tutorial][rake-compiler]
-except that with Jeweller the ` gem ` task is
+except that with Jeweler the ` gem ` task is
 called ` build `.
 
 Hope this helps some folks out there!
