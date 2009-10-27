@@ -36,6 +36,7 @@ h1:first-child {
 
 blockquote {
   border: 2px solid #dddddd;
+  background-color: #eeeeee;
   font-style: italic;
   margin: 0;
   -moz-border-radius: 0.3em;
@@ -48,6 +49,8 @@ blockquote {
     margin: 0 3em 0 3em;
     position: relative;
     top: -2em; }
+    blockquote p + p {
+      padding-top: 1em; }
 
 pre {
   padding: 1em;

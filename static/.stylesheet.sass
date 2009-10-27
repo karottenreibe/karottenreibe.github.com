@@ -56,6 +56,7 @@ h1:first-child
 
 blockquote
   :border= 2px "solid" !grey
+  :background-color= !lightgrey
   :font-style italic
   :margin 0
   +rounded
@@ -69,6 +70,9 @@ blockquote
     :margin 0 3em 0 3em
     :position relative
     :top -2em
+
+    & + p
+      :padding-top 1em
 
 pre
   :padding 1em
