@@ -89,8 +89,11 @@ the above tasks.
 While you do that, I'll go off and ponder
 on what to tell you next.
 
+[Continue with Part 5!][part5]
+
 
 [part1]:        ../../18/ruby-c-extension  "Part 1 of this series"
+[part5]:        ../../28/ruby-c-extension-5 "Part 5 of this series"
 [jeweler]:      http://github.com/technicalpickles/jeweler      "Jeweler, which manages your gemspec"
 [git]:          http://whygitisbetterthanx.com/     "The only true version control system :-)"
 [luis]:         http://github.com/luislavena    "The great fellow who created rake-compiler"

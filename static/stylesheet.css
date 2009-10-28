@@ -64,11 +64,13 @@ pre {
 
 code {
   background-color: #eeeeee;
-  border: 1px solid #dddddd; }
+  border: 1px solid #dddddd;
+  display: inline-block; }
 
 pre code {
   background-color: #eeeeee;
-  border: 0px solid #dddddd; }
+  border: 0px solid #dddddd;
+  display: inline; }
 
 #header {
   float: left;
