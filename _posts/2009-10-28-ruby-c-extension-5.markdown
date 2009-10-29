@@ -169,11 +169,17 @@ you get from ` Method#arity `!
 A positive number means, your function will take
 just that many arguments, none less, none more.
 
-A negative number ` -n ` means, your function needs
+<del>A negative number ` -n ` means, your function needs
 *at least* ` n ` arguments, but can take more.
 This is used for both, the splash arguments
 (` def foo(*args) `), as well as optional arguments
-(` def foo(x = 12) `).
+(` def foo(x = 12) `).</del>
+
+` -1 ` means the function takes a variable number of
+arguments, passed as a C array.
+
+` -2 ` means the function takes a variable number of
+arguments, passed as a Ruby array.
 
 In the next chapter I'll explain how that works in
 detail.
@@ -181,6 +187,10 @@ So go and figure this out for your code, while I write
 that chapter.
 
 
-[part1]:        ../../18/ruby-c-extension  "Part 1 of this series"
+[Continue with Part 6!][part6]
+
+
+[part1]:        ../../18/ruby-c-extension                           "Part 1 of this series"
+[part6]:        ../../29/ruby-c-extension-6                         "Part 6 of this series"
 [pickaxe]:      http://www.rubycentral.com/pickaxe/ext_ruby.html    "The Pickaxe on how to program Ruby in C"
 
