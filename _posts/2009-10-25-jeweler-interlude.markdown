@@ -158,7 +158,7 @@ called ` build `.
 Hope this helps some folks out there!
 
 
-[cextensions]:  ../../18/ruby-c-extension/     "Part 1 of the C Extension series"
-[jeweler]:      http://github.com/technicalpickles/jeweler  "Jeweler - a gemspec manager"
-[rake-compiler]: http://rake-compiler.rubyforge.org/     "The rake-compiler project"
+[cextensions]:      ../../18/ruby-c-extension/                  "Part 1 of the C Extension series"
+[jeweler]:          http://github.com/technicalpickles/jeweler  "Jeweler - a gemspec manager"
+[rake-compiler]:    http://rake-compiler.rubyforge.org/         "The rake-compiler project"
 

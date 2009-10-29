@@ -4,7 +4,7 @@ summary:
     This time it's all about the definition
     of C functions that map to Ruby functions
     and argument checking in C.
-title: Ruby C Extensions -- Part 6
+title: Ruby C Extensions Part 6 -- Defining Functions
 ---
 
 This is part 6 of the tale of my adventures
@@ -142,5 +142,10 @@ information, I will dream about the next
 piece of this fine saga.
 
 
-[part1]:        ../../18/ruby-c-extension  "Part 1 of this series"
+[Continue with Part 7!][part7]
+
+
+[part1]:        ../../18/ruby-c-extension       "Part 1 of this series"
+[part7]:        ../../30/ruby-c-extension-7     "Part 7 of this series"
+
 

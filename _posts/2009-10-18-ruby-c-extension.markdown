@@ -3,7 +3,7 @@ layout: post
 summary:
     The beginnig of an epic tale about how to write
     a Ruby C extension.
-title: Ruby C Extensions -- Part 1
+title: Ruby C Extensions Part 1 -- Toolchain
 ---
 
 # Cooking up a Ruby C Extension #
@@ -62,27 +62,31 @@ Here's a list of what I recommend:
     seen. It really helps you get rid of all the
     mean and nasty malloc/realloc/free memory bugs
     and trace down memory access violations and leaks.
+*   <ins>A gem manager, e.g. [Jeweler][]. This is used
+    to generate the gemspec and package the gems.</ins>
 
 Great! Now run off to your nearest package manager and
 get them all! Meanwhile, I'll finish the next part of
 my little narration...
 
 
-**UPDATE:**
+<ins>
 Here's how to get the gems:
 
     gem install rake-compiler rake-tester
 
 for valgrind and gcc, please use your OS package
 manager or get some binaries on the net.
+</ins>
 
 
 [Continue with Part 2!][part2]
 
 
-[joker]:            http://karottenreibe.github.com/joker   "Joker -- A Ruby library for Wildcard matching"
-[rake-compiler]:    http://github.com/luislavena/rake-compiler  "rake-comiler -- The compiler genie that will grant all your wishes"
-[rake-tester]:      http://www.github.com/karottenreibe/rake-tester  "rake-tester -- Testing Ruby C Extensions with C frameworks"
-[valgrind]:         http://valgrind.org/    "Valgrind -- Trace down your memory leaks!"
-[part2]:            ../../19/ruby-c-extension-2    "Part 2 of this series"
+[joker]:            http://karottenreibe.github.com/joker               "Joker -- A Ruby library for Wildcard matching"
+[rake-compiler]:    http://github.com/luislavena/rake-compiler          "rake-comiler -- The compiler genie that will grant all your wishes"
+[rake-tester]:      http://www.github.com/karottenreibe/rake-tester     "rake-tester -- Testing Ruby C Extensions with C frameworks"
+[valgrind]:         http://valgrind.org/                                "Valgrind -- Trace down your memory leaks!"
+[jeweler]:          http://github.com/technicalpickles/jeweler          "Jeweler -- a gem manager"
+[part2]:            ../../19/ruby-c-extension-2                         "Part 2 of this series"
 

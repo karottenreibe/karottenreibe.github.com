@@ -5,7 +5,7 @@ summary:
     after having escaped the first
     part of the wild maze he got himself
     into last time.
-title: Ruby C Extensions -- Part 4
+title: Ruby C Extensions Part 4 -- rake-compiler
 ---
 
 This is part 4 of my exploits
@@ -30,7 +30,7 @@ Being totally enchanted by my tale, he
 agreed to lend me his mighty steed for
 my exploits.
 
-It's name was rake-compiler.
+[It's name was rake-compiler.][rake-compiler]
 
 
 ## Configuration ##
@@ -92,10 +92,11 @@ on what to tell you next.
 [Continue with Part 5!][part5]
 
 
-[part1]:        ../../18/ruby-c-extension  "Part 1 of this series"
-[part5]:        ../../28/ruby-c-extension-5 "Part 5 of this series"
-[jeweler]:      http://github.com/technicalpickles/jeweler      "Jeweler, which manages your gemspec"
-[git]:          http://whygitisbetterthanx.com/     "The only true version control system :-)"
-[luis]:         http://github.com/luislavena    "The great fellow who created rake-compiler"
-[jew-rakec]:    ../../25/jeweler-interlude      "How to mix Jeweler and rake-compiler"
+[part1]:            ../../18/ruby-c-extension                       "Part 1 of this series"
+[part5]:            ../../28/ruby-c-extension-5                     "Part 5 of this series"
+[jeweler]:          http://github.com/technicalpickles/jeweler      "Jeweler, which manages your gemspec"
+[rake-compiler]:    http://github.com/luislavena/rake-compiler/     "Rake-compiler, which manages native code compilation"
+[git]:              http://whygitisbetterthanx.com/                 "The only true version control system :-)"
+[luis]:             http://github.com/luislavena                    "The great fellow who created rake-compiler"
+[jew-rakec]:        ../../25/jeweler-interlude                      "How to mix Jeweler and rake-compiler"
 

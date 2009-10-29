@@ -4,7 +4,7 @@ summary:
     Continuing yesterday's post, I explore the
     subtleties of crossing the border from Ruby
     gem land to Ruby C extension land.
-title: Ruby C Extensions -- Part 2
+title: Ruby C Extensions Part 2 -- Documentation vs Diving
 ---
 
 This is part 2 of the tale of my adventures
@@ -67,10 +67,10 @@ narration...
 [Continue with Part 3!][part3]
 
 
-[part1]:        ../../18/ruby-c-extension  "Part 1 of this series"
-[part3]:        ../../21/ruby-c-extension-3  "Part 3 of this series"
-[pickaxe]:      http://www.rubycentral.com/pickaxe/ext_ruby.html    "The Pragmatic Programmer's Guide on C extensions"
+[part1]:        ../../18/ruby-c-extension                                                                   "Part 1 of this series"
+[part3]:        ../../21/ruby-c-extension-3                                                                 "Part 3 of this series"
+[pickaxe]:      http://www.rubycentral.com/pickaxe/ext_ruby.html                                            "The Pragmatic Programmer's Guide on C extensions"
 [rubyinside]:   http://www.rubyinside.com/how-to-create-a-ruby-extension-in-c-in-under-5-minutes-100.html   "Ruby Inside blog post on the subject"
-[eqqon]:        http://www.eqqon.com/index.php/Ruby_C_Extension     "eqqon's Ruby C API documentation"
-[segment7]:     http://blog.segment7.net/articles/2009/08/17/on-ruby-c-extensions   "segment7's C extension guidelines"
+[eqqon]:        http://www.eqqon.com/index.php/Ruby_C_Extension                                             "eqqon's Ruby C API documentation"
+[segment7]:     http://blog.segment7.net/articles/2009/08/17/on-ruby-c-extensions                           "segment7's C extension guidelines"
 

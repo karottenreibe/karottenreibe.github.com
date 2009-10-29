@@ -88,9 +88,9 @@ you from putting ` --- ` into the
 frontmatter...)
 
 
-[jekyll]:       http://github.com/mojombo/jekyll    "Jekyll static webpage generator"
-[liquid]:      http://www.liquidmarkup.org/    "Liquid templating language"
-[markdown]:     http://daringfireball.net/projects/markdown/    "Markdown text to HTML converter"
-[haml]:         http://haml-lang.com/   "Awesome HAML templating language"
+[jekyll]:       http://github.com/mojombo/jekyll                    "Jekyll static webpage generator"
+[liquid]:       http://www.liquidmarkup.org/                        "Liquid templating language"
+[markdown]:     http://daringfireball.net/projects/markdown/        "Markdown text to HTML converter"
+[haml]:         http://haml-lang.com/                               "Awesome HAML templating language"
 [jkybug]:       http://github.com/mojombo/jekyll/issues/#issue/93   "A Jekyll bug within frontmatter processing"
 
