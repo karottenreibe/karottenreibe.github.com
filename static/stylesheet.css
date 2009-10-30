@@ -17,6 +17,12 @@ a {
   a:hover {
     border-bottom: 1px dotted #ff5500; }
 
+ins {
+  color: #ffaa00; }
+
+del {
+  color: #bbbbbb; }
+
 hr {
   width: 120%;
   position: relative;
