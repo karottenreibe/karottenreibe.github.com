@@ -3,9 +3,7 @@ html, body {
   padding: 0px;
   font-family: monospace;
   color: black;
-  background-color: #eeeeee; }
-  html > *, body > * {
-    background-color: white; }
+  background-color: white; }
 
 a {
   color: #ff5500;
@@ -72,37 +70,33 @@ pre code {
   border: 0px solid #dddddd;
   display: inline; }
 
-#header {
-  float: left;
-  width: 1em;
-  padding: 1em; }
-  #header #home {
-    font-size: 2em;
-    display: inline-block;
-    border: none;
-    padding: 5px;
-    -moz-border-radius: 0.3em;
-    -webkit-border-radius: 0.3em; }
-    #header #home:hover {
-      background-color: #ff5500;
-      color: white; }
-
 #main {
   padding: 80px 80px 20px 80px;
-  margin: auto;
+  margin: 0 40% 6em auto;
   width: 500px; }
   #main ul#posts {
     list-style-type: none;
-    padding: 1em;
     background-color: #eeeeee;
     border: 0.5em solid #dddddd;
     -moz-border-radius: 1em;
     -webkit-border-radius: 1em;
     -moz-border-radius-topleft: 5em; }
     #main ul#posts li {
-      padding: 1em; }
+      padding: 1em 3em; }
       #main ul#posts li .date {
-        padding-right: 1em; }
+        padding-right: 1em;
+        display: block; }
+      #main ul#posts li .summary {
+        display: none;
+        font-size: 0.9em;
+        font-style: italic;
+        float: right;
+        margin-right: -400px;
+        width: 300px; }
+      #main ul#posts li:hover {
+        background-color: #dddddd; }
+        #main ul#posts li:hover .summary {
+          display: block; }
   #main div#comments {
     text-align: center;
     padding: 2em; }
@@ -116,4 +110,10 @@ pre code {
   font-family: serif;
   font-size: 0.8em;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0px; }
+  #footer p {
+    padding: 0.3em;
+    margin: 0; }

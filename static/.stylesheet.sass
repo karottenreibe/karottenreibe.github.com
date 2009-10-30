@@ -19,10 +19,7 @@ html, body
   :padding 0px
   :font-family monospace
   :color= !black
-  :background-color= !lightgrey
-
-  & > *
-    :background-color= !white
+  :background-color= !white
 
 a
   :color= !orange
@@ -92,39 +89,37 @@ pre code
   :display inline
 
 
-#header
-  :float left
-  :width 1em
-  :padding 1em
-
-  #home
-    :font-size 2em
-    :display inline-block
-    :border none
-    :padding 5px
-    +rounded
-
-    &:hover
-      :background-color= !orange
-      :color= !white
-
 #main
   :padding 80px 80px 20px 80px
-  :margin auto
+  :margin 0 40% 6em auto
   :width 500px
 
   ul#posts
     :list-style-type none
-    :padding 1em
     +greybox(0.5em)
     +rounded(1em)
     :-moz-border-radius-topleft 5em
 
     li
-      :padding 1em
+      :padding 1em 3em
 
       .date
         :padding-right 1em
+        :display block
+
+      .summary
+        :display none
+        :font-size 0.9em
+        :font-style italic
+        :float right
+        :margin-right -400px
+        :width 300px
+
+      &:hover
+        :background-color= !grey
+
+        .summary
+          :display block
 
   div#comments
     :text-align center
@@ -142,4 +137,11 @@ pre code
   :font-size 0.8em
   :text-align center
   :padding 10px
+  :position fixed
+  :width 100%
+  :bottom 0px
+
+  p
+    :padding 0.3em
+    :margin 0
 

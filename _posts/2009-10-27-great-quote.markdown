@@ -1,7 +1,7 @@
 ---
 title: A Great Quote
 summary:
-    A great quote from Voltaire.
+    A great quote from Evelyn Beatrice Hall.
 layout: post
 ---
 
@@ -15,7 +15,7 @@ layout: post
 
 English translation:
 
-> I despise your opinion, but I would give my life, so you can say it")
+> I despise your opinion, but I would give my life, so you can say it
 
 German translation:
 

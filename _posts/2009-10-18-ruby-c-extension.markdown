@@ -3,7 +3,7 @@ layout: post
 summary:
     The beginnig of an epic tale about how to write
     a Ruby C extension.
-title: Ruby C Extensions Part 1 -- Toolchain
+title: 'Ruby C Extensions Part 1: Toolchain'
 ---
 
 # Cooking up a Ruby C Extension #

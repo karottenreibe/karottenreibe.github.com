@@ -7,7 +7,8 @@
   :plain
     {% for post in site.posts %}
   %li
-    %span.date {{ post.date | date_to_string }}:
+    %span.summary {{ post.summary }}
+    %span.date {{ post.date | date_to_string }}
     %a.title{ :href => "{{ post.url }}", :title => 'k on: "{{ post.title }}"' } {{ post.title }}
   :plain
     {% endfor %}

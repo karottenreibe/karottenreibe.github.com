@@ -1,7 +1,7 @@
 ---
 layout: post
 summary:
-title: Ruby C Extensions Part 7 -- 
+title: 'Ruby C Extensions Part 7: '
 ---
 
 This is part 6 of the tale of my adventures

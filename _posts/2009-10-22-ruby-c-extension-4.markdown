@@ -5,7 +5,7 @@ summary:
     after having escaped the first
     part of the wild maze he got himself
     into last time.
-title: Ruby C Extensions Part 4 -- rake-compiler
+title: 'Ruby C Extensions Part 4: rake-compiler'
 ---
 
 This is part 4 of my exploits

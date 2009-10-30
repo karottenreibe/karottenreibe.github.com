@@ -7,32 +7,29 @@
     <link href='/static/syntax.css' rel='stylesheet' type='text/css' />
   </head>
   <body>
-    <div id='header'>
-      <a href='/' id='home' title='Go back to the topmost page'>k a r o t t e n r e i b e</a>
-    </div>
     <div id='main'>
       {{ content }}
     </div>
     <div style='clear:both;'></div>
     <div id='footer'>
-      <div>
-        (c) 2009 by karottenreibe
-      </div>
-      <div>
+      <p>
+        <a href='/' title='Go back to the topmost page'>Home</a>
+        &bull;
+        <a href='/rss.xml' title='The RSS feed for this blog'>RSS feed</a>
+      </p>
+      <p>
+        (c) 2009 by karottenreibe.
         Licensed under the
         <a href='/static/LICENSE.txt' title='The license of the stuff on this webpage'>MIT License</a>
         unless otherwise indicated.
-      </div>
-      <div>
+      </p>
+      <p>
         Thank you
         <a href='http://github.com/mojombo/jekyll' title='Jekyll -- a static website generator'>Jekyll</a>
         and
         <a href='http://www.github.com/' title='GitHub -- social coding'>GitHub</a>
         !
-      </div>
-      <div>
-        <a href='/rss.xml' title='The RSS feed for this blog'>RSS feed</a>
-      </div>
+      </p>
     </div>
   </body>
 </html>

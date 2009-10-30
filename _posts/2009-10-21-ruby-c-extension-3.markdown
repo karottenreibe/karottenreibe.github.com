@@ -3,7 +3,7 @@ layout: post
 summary:
     Advancing further and further, obstacles
     soon start to present themselves.
-title: Ruby C Extensions Part 3 -- Directory Structure and extconf.rb
+title: 'Ruby C Extensions Part 3: Directory Structure and extconf.rb'
 ---
 
 This is part 3 of my little adventures

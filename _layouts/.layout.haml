@@ -9,26 +9,25 @@
 
   %body
 
-    #header
-      %a#home{ :href => '/', :title => 'Go back to the topmost page' } k a r o t t e n r e i b e
 
     #main
       {{ content }}
 
     %div{ :style => 'clear:both;' }
     #footer
-      %div
-        (c) 2009 by karottenreibe
-      %div
+      %p
+        %a{ :href => '/', :title => 'Go back to the topmost page' } Home
+        &bull;
+        %a{ :href => '/rss.xml', :title => 'The RSS feed for this blog' } RSS feed
+      %p
+        (c) 2009 by karottenreibe.
         Licensed under the
         %a{ :title => 'The license of the stuff on this webpage', :href => '/static/LICENSE.txt' } MIT License
         unless otherwise indicated.
-      %div
+      %p
         Thank you
         %a{ :href => 'http://github.com/mojombo/jekyll', :title => "Jekyll -- a static website generator" } Jekyll
         and
         %a{ :href => 'http://www.github.com/', :title => 'GitHub -- social coding' } GitHub
         !
-      %div
-        %a{ :href => '/rss.xml', :title => 'The RSS feed for this blog' } RSS feed
 

@@ -4,7 +4,7 @@ summary:
     Today I explore how to write your
     extension C code and how to integrate
     it with Ruby.
-title: Ruby C Extensions Part 5 -- Implementation and Interfacing
+title: 'Ruby C Extensions Part 5: Implementation and Interfacing'
 ---
 
 This is part 5 of my exploits
