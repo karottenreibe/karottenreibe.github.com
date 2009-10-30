@@ -1,12 +1,14 @@
 ---
 layout: layout
 ---
-<div class='date'>{{ page.date | date_to_string }}</div>
-<div class='title'>
-  <a href='{{ page.url }}' title='k on "{{ page.title }}"'>{{ page.title }}</a>
-</div>
-<hr />
-<div class='text'>{{ content }}</div>
-<div id='comments'>
-  <a href='/comments/' title='Why is there no comment function?'>Comments?</a>
+<div id='post'>
+  <div class='date'>{{ page.date | date_to_string }}</div>
+  <div class='title'>
+    <a href='{{ page.url }}' title='k on "{{ page.title }}"'>{{ page.title }}</a>
+  </div>
+  <hr />
+  <div class='text'>{{ content }}</div>
+  <div id='comments'>
+    <a href='/comments/' title='Why is there no comment function?'>Comments?</a>
+  </div>
 </div>

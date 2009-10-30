@@ -70,37 +70,44 @@ pre code {
   border: 0px solid #dddddd;
   display: inline; }
 
-#main {
-  padding: 80px 80px 20px 80px;
-  margin: 0 40% 6em auto;
-  width: 500px; }
-  #main ul#posts {
+#index {
+  margin: auto;
+  padding: 40px 0 10em;
+  width: 1000px; }
+  #index #logo {
+    float: right;
+    font-size: 500px;
+    z-index: -1;
+    font-style: italic;
+    color: #eeeeee; }
+  #index ul#posts {
     list-style-type: none;
-    background-color: #eeeeee;
-    border: 0.5em solid #dddddd;
-    -moz-border-radius: 1em;
-    -webkit-border-radius: 1em;
-    -moz-border-radius-topleft: 5em; }
-    #main ul#posts li {
+    float: left;
+    background-color: #eeeeee; }
+    #index ul#posts li {
       padding: 1em 3em; }
-      #main ul#posts li .date {
-        padding-right: 1em;
+      #index ul#posts li .date {
         display: block; }
-      #main ul#posts li .summary {
+      #index ul#posts li .summary {
         display: none;
         font-size: 0.9em;
         font-style: italic;
         float: right;
         margin-right: -400px;
         width: 300px; }
-      #main ul#posts li:hover {
+      #index ul#posts li:hover {
         background-color: #dddddd; }
-        #main ul#posts li:hover .summary {
+        #index ul#posts li:hover .summary {
           display: block; }
-  #main div#comments {
+
+#post {
+  margin: 0 auto 6em auto;
+  padding: 80px 80px 20px 80px;
+  width: 500px; }
+  #post div#comments {
     text-align: center;
     padding: 2em; }
-    #main div#comments a {
+    #post div#comments a {
       font-size: 1.3em;
       font-family: serif; }
 

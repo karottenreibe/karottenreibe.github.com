@@ -89,22 +89,27 @@ pre code
   :display inline
 
 
-#main
-  :padding 80px 80px 20px 80px
-  :margin 0 40% 6em auto
-  :width 500px
+#index
+  :margin auto
+  :padding 40px 0 10em
+  :width 1000px
+
+  #logo
+    :float right
+    :font-size 500px
+    :z-index -1
+    :font-style italic
+    :color= !lightgrey
 
   ul#posts
     :list-style-type none
-    +greybox(0.5em)
-    +rounded(1em)
-    :-moz-border-radius-topleft 5em
+    :float left
+    :background-color= !lightgrey
 
     li
       :padding 1em 3em
 
       .date
-        :padding-right 1em
         :display block
 
       .summary
@@ -120,6 +125,11 @@ pre code
 
         .summary
           :display block
+
+#post
+  :margin 0 auto 6em auto
+  :padding 80px 80px 20px 80px
+  :width 500px
 
   div#comments
     :text-align center

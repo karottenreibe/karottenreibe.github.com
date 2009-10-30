@@ -2,12 +2,16 @@
 layout: layout
 title: This Blog
 ---
-<ul id='posts'>
-  {% for post in site.posts %}
-  <li>
-    <span class='summary'>{{ post.summary }}</span>
-    <span class='date'>{{ post.date | date_to_string }}</span>
-    <a class='title' href='{{ post.url }}' title='k on: "{{ post.title }}"'>{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<div id='index'>
+  <div id='logo'>k</div>
+  <ul id='posts'>
+    {% for post in site.posts %}
+    <li>
+      <span class='summary'>{{ post.summary }}</span>
+      <span class='date'>{{ post.date | date_to_string }}</span>
+      <a class='title' href='{{ post.url }}' title='k on: "{{ post.title }}"'>{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <div style='clear:both;'></div>
+</div>
