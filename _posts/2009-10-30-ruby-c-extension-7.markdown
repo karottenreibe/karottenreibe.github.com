@@ -113,7 +113,11 @@ I'll think hard about the next part, which
 might already be the last one about C extensions...
 
 
+[Continue with Part 8!][part8]
+
+
 [part1]:        ../../18/ruby-c-extension                                       "Part 1 of this series"
+[part8]:        ../../../11/01/ruby-c-extension-8                               "Part 8 of this series"
 [urealms]:      http://www.escapistmagazine.com/videos/view/unforgotten-realms  "It's a well known fact that all wizards wear monocles."
 [rake-tester]:  http://www.github.com/karottenreibe/rake-tester                 "Tests your C code using a C testing framework"
 [cmockery]:     http://code.google.com/p/cmockery/                              "Testing framework for C"

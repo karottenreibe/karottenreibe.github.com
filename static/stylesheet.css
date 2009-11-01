@@ -5,6 +5,9 @@ html, body {
   color: black;
   background-color: white; }
 
+img {
+  border: none; }
+
 a {
   color: #ff5500;
   text-decoration: none;
@@ -18,7 +21,7 @@ a {
     border-bottom: 1px dotted #ff5500; }
 
 ins {
-  color: #ffaa00; }
+  background-color: #eeeeee; }
 
 del {
   color: #bbbbbb; }
@@ -75,6 +78,12 @@ pre code {
   background-color: #eeeeee;
   border: 0px solid #dddddd;
   display: inline; }
+
+#forkme {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  border: none; }
 
 #index {
   margin: auto;
