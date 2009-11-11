@@ -202,7 +202,7 @@ So, this is the last exhaustingly long post
 about Ruby C extensions.
 
 I decided to write a (probably even longer)
-wrapup article using [Joker][] as an example
+[wrapup article][wrapup] using [Joker][] as an example
 to demonstrate it all in shorter and and
 with *real* code as the basis.
 
@@ -212,10 +212,11 @@ And by the way: C extension land rocks! ;-)
 Hope it helped!
 
 
-[part1]:                ../../../10/18/ruby-c-extension                     "Part 1 of this series"
-[rake-tester]:          http://www.github.com/karottenreibe/rake-tester     "Tests your C code using a C testing framework"
-[jeweler-interlude]:    ../../../10/25/jeweler-interlude                    "How to configure Jeweler for C extension deployment"
-[rake-compiler]:        http://github.com/luislavena/rake-compiler          "rake-comiler -- The compiler genie that will grant all your wishes"
-[joker]:                http://karottenreibe.github.com/joker               "Joker -- A Ruby library for Wildcard matching"
-[linus]:                
+[part1]:                ../../../10/18/ruby-c-extension                                                 "Part 1 of this series"
+[rake-tester]:          http://www.github.com/karottenreibe/rake-tester                                 "Tests your C code using a C testing framework"
+[jeweler-interlude]:    ../../../10/25/jeweler-interlude                                                "How to configure Jeweler for C extension deployment"
+[rake-compiler]:        http://github.com/luislavena/rake-compiler                                      "rake-comiler -- The compiler genie that will grant all your wishes"
+[joker]:                http://karottenreibe.github.com/joker                                           "Joker -- A Ruby library for Wildcard matching"
+[linus]:                http://picasaweb.google.com/cschlaeger/JapanLinuxSymposium#5395358413061926434  "A not so typical MS user..."
+[wrapup]:               ../../02/c-extension-wrapup                                                     "A wrapup of the whole C extension business"
 
