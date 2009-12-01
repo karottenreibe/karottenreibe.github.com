@@ -9,25 +9,14 @@
 
   %body
 
-    %a#forkme{ :href => '', :title => '' }
-      %img{ :src => '/static/images/forkme.png', :alt => '' }
+    %a#forkme{ :href => 'http://www.github.com/karottenreibe', :title => 'Fork me on GitHub' }
+      %img{ :src => '/static/images/forkme.png', :alt => 'Fork me on GitHub' }
+
+    #header
+      {% include header.html %}
 
     {{ content }}
 
     #footer
-      %p
-        %a{ :href => '/', :title => 'Go back to the topmost page' } Home
-        &bull;
-        %a{ :href => '/rss.xml', :title => 'The RSS feed for this blog' } RSS feed
-      %p
-        (c) 2009 by karottenreibe.
-        Licensed under the
-        %a{ :title => 'The license of the stuff on this webpage', :href => '/static/LICENSE.txt' } MIT License
-        unless otherwise indicated.
-      %p
-        Thank you
-        %a{ :href => 'http://github.com/mojombo/jekyll', :title => "Jekyll -- a static website generator" } Jekyll
-        and
-        %a{ :href => 'http://www.github.com/', :title => 'GitHub -- social coding' } GitHub
-        !
+      {% include footer.html %}
 
