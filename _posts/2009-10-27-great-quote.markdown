@@ -15,7 +15,7 @@ layout: post
 
 English translation:
 
-> I despise your opinion, but I would give my life, so you can say it
+> I despise your opinion, but I would give my life, so you can say it.
 
 German translation:
 
