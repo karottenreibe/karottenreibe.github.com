@@ -25,5 +25,5 @@ German translation:
 That's democracy (I still hope it's out there somewhere ;-).
 
 
-[wikiquote]:    http://en.wikiquote.org/wiki/Voltaire   "Quotes by Voltaire"
+[wikiquote]:    http://en.wikiquote.org/wiki/Voltaire#Misattributed   "Quotes misattributed to Voltaire"
 
