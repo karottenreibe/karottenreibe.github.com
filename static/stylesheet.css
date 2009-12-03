@@ -8,7 +8,8 @@ html, body {
     background-color: white; }
 
 img {
-  border: none; }
+  border: none;
+  width: 500px; }
 
 a {
   color: #ff5500;
@@ -86,6 +87,8 @@ pre code {
   top: 0px;
   right: 0px;
   border: none; }
+  #forkme img {
+    width: auto; }
 
 #header {
   text-align: center; }
