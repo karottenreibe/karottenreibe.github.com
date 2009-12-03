@@ -12,7 +12,8 @@ class BuildTask
         desc("build all #{source} files")
         task "build:#{source}" do
             source_files.each do |source_file|
-                sh "#{interpreter} #{source_file} #{source_to_target(source_file)}"
+                target_file = source_to_target(source_file)
+                sh "#{interpreter} #{source_file} #{target_file}" if newer_than(source_file, target_file)
             end
         end
     end
@@ -21,6 +22,10 @@ class BuildTask
         basename = File.basename(source_file)[1..-1]
         dirname  = File.dirname(source_file)
         File.join(dirname, basename).ext(@target)
+    end
+
+    def newer_than( source, target )
+        File.mtime(source) > File.mtime(target)
     end
 
 end
