@@ -20,7 +20,10 @@ html, body
   :padding 0px
   :font-family monospace
   :color= !black
-  :background-color= !white
+  :background-color= !lightgrey
+
+  & > *
+    :background-color= !white
 
 img
   :border none
@@ -105,9 +108,30 @@ pre code
   :right 0px
   :border none
 
+#header
+  :text-align center
+
+  .spacer
+    :padding-left 50px
+    :color= !grey
+
+  ul
+    :display inline
+    :padding 0px
+
+  li
+    :display inline
+
+    &:after
+      :content '•'
+      :color= !grey
+
+    &:last-child:after
+      :content ''
+      :color= !grey
+
 #index
   :margin auto
-  :padding 40px 0 10em
   :width 1000px
 
   #logo
@@ -163,9 +187,6 @@ pre code
   :font-size 0.8em
   :text-align center
   :padding 10px
-  :position fixed
-  :width 100%
-  :bottom 0px
 
   p
     :padding 0.3em

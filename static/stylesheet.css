@@ -3,7 +3,9 @@ html, body {
   padding: 0px;
   font-family: monospace;
   color: black;
-  background-color: white; }
+  background-color: #eeeeee; }
+  html > *, body > * {
+    background-color: white; }
 
 img {
   border: none; }
@@ -85,9 +87,25 @@ pre code {
   right: 0px;
   border: none; }
 
+#header {
+  text-align: center; }
+  #header .spacer {
+    padding-left: 50px;
+    color: #dddddd; }
+  #header ul {
+    display: inline;
+    padding: 0px; }
+  #header li {
+    display: inline; }
+    #header li:after {
+      content: '•';
+      color: #dddddd; }
+    #header li:last-child:after {
+      content: '';
+      color: #dddddd; }
+
 #index {
   margin: auto;
-  padding: 40px 0 10em;
   width: 1000px; }
   #index #logo {
     float: right;
@@ -132,10 +150,7 @@ pre code {
   font-family: serif;
   font-size: 0.8em;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0px; }
+  padding: 10px; }
   #footer p {
     padding: 0.3em;
     margin: 0; }
