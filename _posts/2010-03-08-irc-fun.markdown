@@ -1,0 +1,19 @@
+---
+layout: post
+title: IRC fun
+summary: |-
+    Non-nerds explain IRC. Hilarious ;-)
+---
+
+This is so un epic and awesome, I just have to share it:
+
+[Numbers explains IRC][numbers]
+
+I lol'd!
+
+(via [irssi][])
+
+
+[number]: http://www.youtube.com/watch?v=O2rGTXHvPCQ&feature=player_embedded "Numbers explains IRC"
+[irssi]: http://www.irssi.org/ "irssi, the real IRC client ;-)"
+

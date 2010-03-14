@@ -1,0 +1,38 @@
+---
+layout: post
+title: ConQAT
+summary: |-
+    Just a little summary of my internship that
+    is currently going on.
+---
+
+As part of my studies, I am currently working
+in a three week internship at university,
+consisting of 4 tutors, 6 fellow students and me.
+
+We are improving on the [Continuous Quality Assessment Toolkit][conqat];
+or short: ConQAT.
+
+It's a nice little open-source code quality analyzer
+that works as an [Eclipse][] plugin. It comes with
+HTML result generation, a very flexible pipe-like
+mechanism to build analyses out of simple parts
+(called processors) and a graphical editor to build
+those.
+
+Most of our work is focused on the GUI part of the
+application, since the rest is already pretty rock-solid.
+
+It's quite a lot of fun and the insight you gain into
+the Eclipse architecture is quite... enlightening ;-)
+
+As of late, I'm working on [refactoring][]s, quite an
+interesting, challenging (and not at all well-documented) part of
+Eclipse.
+
+But I'm doing well so far. Quite the learning experience.
+
+[conqat]: http://conqat.cs.tum.edu/index.php/ConQAT "ConQAT"
+[eclipse]: http://www.eclipse.org/ "Eclipse"
+[refactoring]: http://www.ibm.com/developerworks/library/os-ecref/ "Refactoring in Eclipse"
+

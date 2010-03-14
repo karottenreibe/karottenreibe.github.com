@@ -11,7 +11,7 @@
   <item>
     <title>{{ post.title }}</title>
     <link>{{ post.url }}</link>
-    <description>{{ post.summary }}</description>
+    <description>{{ post.content }}</description>
   </item>
   {% endfor %}
 </channel>

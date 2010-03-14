@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo -n 'title: '
+read title
+titleD=$(echo $title | sed 's/\W/-/g' | tr '[A-Z]' '[a-z]')
+file="./_posts/`date +'%Y-%m-%d'`-$titleD.markdown"
+
+cat <<EOS > $file
+---
+layout: post
+title: $title
+summary: |-
+    
+---
+EOS
+
+vim $file +4
+

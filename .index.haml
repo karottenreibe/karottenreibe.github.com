@@ -11,7 +11,7 @@
     %li
       %span.summary {{ post.summary }}
       %span.date {{ post.date | date_to_string }}
-      %a.title{ :href => "{{ post.url }}", :title => 'k on: "{{ post.title }}"' } {{ post.title }}
+      %a.title{ :href => "{{ post.url }}", :title => 'k on "{{ post.title }}"' } {{ post.title }}
     :plain
       {% endfor %}
   %div{ :style => 'clear:both;' }
