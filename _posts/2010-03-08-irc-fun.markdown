@@ -14,6 +14,6 @@ I lol'd!
 (via [irssi][])
 
 
-[number]: http://www.youtube.com/watch?v=O2rGTXHvPCQ&feature=player_embedded "Numbers explains IRC"
+[numbers]: http://www.youtube.com/watch?v=O2rGTXHvPCQ&feature=player_embedded "Numbers explains IRC"
 [irssi]: http://www.irssi.org/ "irssi, the real IRC client ;-)"
 
