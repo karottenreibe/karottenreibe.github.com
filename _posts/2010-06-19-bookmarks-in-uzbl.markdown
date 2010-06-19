@@ -60,5 +60,5 @@ go hand in hand with bookmarks.
 
 [toggle]: http://github.com/karottenreibe/uzbl-scripts/blob/master/toggle_bookmark.sh "The toggle bookmark script"
 [bmarked]: http://github.com/karottenreibe/uzbl-scripts/blob/master/bookmarked.sh "The bookmarked script"
-
+[zenity]: http://en.wikipedia.org/wiki/Zenity "The zenity dialog utility"
 
