@@ -17,6 +17,10 @@ text file with each entry on a line and columns
 separated by tabs. That keeps the whole thing
 human-readable.
 
+It has one dependency though: [zenity][], which
+it uses to display a dialog to ask you for the title
+of the bookmark.
+
 The script is best invoked via a keybinding:
 
     @cbind A    spawn @scripts_dir/toggle_bookmark.sh
@@ -50,6 +54,9 @@ and your `title_format_long` and/or `title_format_short` to include
     \@bookmarked
 
 and you're set!
+
+Next I'll cover history and omnicompletion, which
+go hand in hand with bookmarks.
 
 [toggle]: http://github.com/karottenreibe/uzbl-scripts/blob/master/toggle_bookmark.sh "The toggle bookmark script"
 [bmarked]: http://github.com/karottenreibe/uzbl-scripts/blob/master/bookmarked.sh "The bookmarked script"
