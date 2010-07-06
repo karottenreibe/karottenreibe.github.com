@@ -24,7 +24,7 @@ One word of warning though: Their for loop is a bit broken,
 it'll iterate one time more often than you request ;-)
 
 
-[tut]: 
-[loop]: 
-[comp]: 
+[tut]: http://llvm.org/docs/tutorial/ "Comprehensive tutorial for LLVMs basic features"
+[loop]: http://de.wikipedia.org/wiki/LOOP-Programm "Couldn't find an English reference"
+[comp]: http://github.com/karottenreibe/loop "The LOOP compiler"
 
